@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login_page</title>
+    <link rel="stylesheet" href="../Stylesheets/login-style.css">
+</head>
+<body>
+    <div class="display-flex-dr-row container" id="container">
+        <div class="items leftside">
+            <div class="login-text display-flex-dr-col" id="main-login">
+                <h1 style="color: black;">Log in</h1>
+                <input type="text" placeholder="Name" required>
+                <input type="password" name="" id="" placeholder="Password" required>
+                <input type="button" value="LOG IN">
+            </div>
+            <div class="login-info display-flex-dr-col" style="color:white ;" id="promttologin">
+                <h1>Hello, Friend!</h1>
+                <p>Enter your details and start journey with us</p>
+                <input type="button" value="LOG IN" id="loginbtn">
+            </div>
+        </div>
+        <div class="items rightside">
+            <div class="signup-text display-flex-dr-col" style="color: white;" id="promttosignup">
+                <h1>Welcome Back!</h1>
+                <p>To keep connected with us please login with your personal info</p>
+                <input type="button" value="SIGN UP" id="signupbtn">
+            </div>
+            <div class="signup-info display-flex-dr-col" id="main-signup">
+                <h1 style="color: black;">Create Account</h1>
+                <input type="text" placeholder="Name" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Confirm Password" required>
+                <input type="button" value="SIGN UP">
+            </div>
+        </div>
+        <!-- <div class="mover" id="bg"></div> -->
+    </div>
+    <script src="../login-app.js"></script>
+</body>
+</html>
